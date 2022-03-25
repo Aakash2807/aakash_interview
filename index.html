@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style type='text/css'>
+      div:hover {
+       animation-name: example;
+        animation-duration: 1s;
+        animation-iteration-count: 10000000000000000000000000000;
+        background-color: white;
+      }
+      @keyframes example {
+        0% {background-color: white;}
+        10% {background-color: white;}
+        20% {background-color: white;}
+        30% {background-color: white;}
+        40% {background-color: white;}
+        50% {background-color: white;}
+        60% {background-color: white;}
+        70% {background-color: white;}
+        80% {background-color: white;}
+        90% {background-color: white;}
+        100% {background-color: white;}
+      }
+      .btn {
+        background: grey;
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        font-size: 20px;
+        padding: 20px 20px 10px 20px;
+        text-decoration: none;
+        margin-top: auto;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: white;
+        color: black;
+      }
+      /* Create four equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        height: 1200px; /* Should be removed. Only for demonstration */
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    .wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Aller" !important;font-weight:400 !important;}
+    #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {color:#626262 !important;}
+    .wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+    .wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Aller" !important;text-transform:  none !important;letter-spacing: 1px !important;}
+    #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {color:#626262 !important;}
+    .wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+    #wsite-title {font-family:"Roboto" !important;letter-spacing: 4px !important;}
+    .wsite-menu-default a {}
+    .wsite-menu a {}
+    .wsite-image div, .wsite-caption {}
+    .galleryCaptionInnerText {}
+    .fancybox-title {}
+    .wslide-caption-text {}
+    .wsite-phone {}
+    .wsite-headline,.wsite-header-section .wsite-content-title {font-family:"Aller" !important;color:#fff !important;letter-spacing: 2px !important;}
+    .wsite-headline-paragraph,.wsite-header-section .paragraph {font-family:"Aller" !important;}
+    .wsite-button-inner {font-family:"Courier New" !important;letter-spacing: 0px !important;}
+    .wsite-not-footer blockquote {font-family:"Patua One" !important;color:#fff !important;}
+    .wsite-footer blockquote {}
+    .blog-header h2 a {}
+    #wsite-content h2.wsite-product-title {}
+    .wsite-product .wsite-product-price a {}
+    .wsite-button-large .wsite-button-inner {font-size:15px !important;}
+    @media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-size:13px !important;line-height:28px !important;}
+    #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+    .wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+    .wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-size:30px !important;line-height:6px !important;}
+    #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+    .wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+    #wsite-title {font-size:14px !important;}
+    .wsite-menu-default a {font-size:10px !important;}
+    .wsite-menu a {}
+    .wsite-image div, .wsite-caption {}
+    .galleryCaptionInnerText {}
+    .fancybox-title {}
+    .wslide-caption-text {}
+    .wsite-phone {}
+    .wsite-headline,.wsite-header-section .wsite-content-title {font-size:40px !important;line-height:15px !important;}
+    .wsite-headline-paragraph,.wsite-header-section .paragraph {font-size:17px !important;}
+    .wsite-button-inner {}
+    .wsite-not-footer blockquote {}
+    .wsite-footer blockquote {}
+    .blog-header h2 a {}
+    #wsite-content h2.wsite-product-title {}
+    .wsite-product .wsite-product-price a {}
+    }</style>
+    <style>
+    .wsite-background {background-image: url("/uploads/1/4/0/4/140469664/background-images/1436807259.jpg") !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: 100% !important;background-color: transparent !important;background: inherit;}
+    body.wsite-background {background-attachment: fixed !important;}.wsite-background.wsite-custom-background{ background-size: cover !important}
+    </style>
+    <script type="text/javascript">
+
+    </script>
+    <meta charset="utf-8">
+    <title>Careers</title><meta property="og:site_name" content="EDNAM" />
+<meta property="og:title" content="Careers" />
+<meta property="og:description" content="Location: IIT Roorkee" />
+<meta property="og:image" content="https://www.ednams.com/uploads/1/4/0/4/140469664/published/929191346.png?1646246056" />
+<meta property="og:image" content="https://www.ednams.com/uploads/1/4/0/4/140469664/published/332513231.png?1646244893" />
+<meta property="og:image" content="https://www.ednams.com/uploads/1/4/0/4/140469664/published/137972473.jpg?1646245824" />
+<meta property="og:image" content="https://www.ednams.com/uploads/1/4/0/4/140469664/editor/312678590.png?1646245335" />
+<meta property="og:url" content="https://www.ednams.com/careers.html" />
+
+  </head>
+  <body >
+    <div class="container">
+  			<div class="wsite-section-elements">
+  				<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+  	<table class="wsite-multicol-table">
+  		<tbody class="wsite-multicol-tbody">
+  			<tr class="wsite-multicol-tr">
+  				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+
+
+
+  <h2 class="wsite-content-title" style="text-align:center;  margin-left: 150px; color: grey; font-size:50px; margin-bottom:0px;">Why work at Ednam?&nbsp;</h2>
+
+
+
+  				<!-- </td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;"> -->
+
+
+
+
+
+
+
+  				</td>			</tr>
+  		</tbody>
+  	</table>
+  </div></div></div>
+  			</div>
+		</div>
+    <div class="container">
+  			<div class="wsite-section-elements">
+  				<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+  	<table class="wsite-multicol-table">
+  		<tbody class="wsite-multicol-tbody">
+  			<tr class="wsite-multicol-tr">
+  				<td class="wsite-multicol-col" style="width:72%; padding:0 15px;">
+
+
+  				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+
+
+
+  <h2 class="wsite-content-title" style="text-align:center; position: relative;"><font color="#e9a476" size="7">4 Reasons</font></h2>
+
+
+
+  				</td>			</tr>
+  		</tbody>
+  	</table>
+  </div></div></div>
+  			</div>
+		</div>
+
+  <!-- Reason  -->
+  <div class="row" style="margin-left:200px">
+        <div class="column" style="background-color:#aaa;">
+            <div class="wsite-section-wrap">
+        	<div class="wsite-section wsite-body-section wsite-background-71 wsite-custom-background">
+        		<div class="wsite-section-content">
+        		    <div class="container">
+        			<div class="wsite-section-elements">
+        				<h2 class="wsite-content-title"><font color="#2a2a2a">Don't Settle For Just Any Job!</font></h2>
+
+        <div class="wsite-spacer" style="height:13px;"></div>
+
+        <div class="paragraph" style="text-align:justify;"><font color="#3f3f3f" size="4">It is said that success will chase after those who chase after greatness.<br>We invite you to join us on that pursuit – of doing something meaningful with our talents, of daring to dream big and betting on our hard work – while we can afford to.</font></div>
+        			</div>
+        		</div>
+        		</div>
+
+        	</div>
+      </div>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+            <div class="wsite-section-wrap">
+        	<div class="wsite-section wsite-body-section wsite-background-44 wsite-custom-background">
+        		<div class="wsite-section-content">
+        		    <div class="container">
+        			<div class="wsite-section-elements">
+        				<h2 class="wsite-content-title"><font color="#2a2a2a">We are doing interesting Work</font></h2>
+        <div class="paragraph"><ul><li><font size="4">Here at Ednam, we develop Practical Smart Garments, that Enrich Lives</font></li><li><font size="4">We are making India's first collection of apparel that delivers functions beyond traditional use – by interweaving electronic circuits within the fabric.</font></li><li><font size="4">Indian textile sector is renowned all over the world for its tradition and capability. By adding to it superior technology, we believe we can make India the global leader in smart garments.</font></li></ul></div>
+        <div style="text-align:center;"><div style="height: 60px; overflow: hidden;"></div>
+            <!-- <a class="wsite-button wsite-button-large wsite-button-normal" href="/">
+            <span class="wsite-button-inner">See Home</span>
+            </a>
+            <div style="height: 30px; overflow: hidden;"></div> -->
+            <a class="btn" href="https://www.ednams.com/">See Home</a>
+      </div>
+        			</div>
+        		</div>
+        		</div>
+
+        	</div>
+        </div>
+  </div>
+  <div class="column" style="background-color:#ccc;">
+            <div class="wsite-section-wrap">
+        	<div class="wsite-section wsite-body-section wsite-background-45 wsite-custom-background">
+        		<div class="wsite-section-content">
+        		    <div class="container">
+        			<div class="wsite-section-elements">
+        				<h2 class="wsite-content-title"><font color="#2a2a2a">&nbsp; We believe Our Values make us valuable</font>&nbsp;</h2>
+
+        <div class="wsite-spacer" style="height:21px;"></div>
+
+        <div class="paragraph"><ul><li><font size="4">Being Compassionate &amp; Respectful to people</font></li><li><font size="4">Being Sincere &amp; Resolute in work</font></li><li><font size="4">Having fun learning , and Learning to have fun</font></li></ul></div>
+        			</div>
+        		</div>
+        		</div>
+
+        	</div>
+        </div>
+  </div>
+  <div class="column" style="background-color:#ddd;">
+              <div class="wsite-section-wrap">
+          	<div class="wsite-section wsite-body-section wsite-section-bg-color wsite-background-36 wsite-custom-background" style="height: auto;background-color: transparent;background-image: none;is_customized: 1;">
+          		<div class="wsite-section-content">
+          		    <div class="container">
+          			<div class="wsite-section-elements">
+          				<h2 class="wsite-content-title" style="text-align:left; "><font color="#2a2a2a">We Compensate ourselves well</font>&nbsp;</h2>
+
+          <div class="wsite-spacer" style="height:50px;"></div>
+
+          <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+          	<table class="wsite-multicol-table">
+          		<tbody class="wsite-multicol-tbody">
+          			<tr class="wsite-multicol-tr">
+          				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+
+
+
+          <div class="wsite-spacer" style="height:50px;"></div>
+
+          <div class="paragraph" style="text-align:center;"><strong><font color="#da8044" size="4">Employee Stock Ownership and<br>Equity Vesting Plans</font></strong></div>
+
+
+
+          				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+
+
+
+          <div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+          <a>
+          <img src="https://www.ednams.com/uploads/1/4/0/4/140469664/published/929191346.png?1646246056" alt="Picture" style="width:auto;max-width:100%">
+          </a>
+          <div style="display:block;font-size:90%"></div>
+          </div></div>
+
+
+
+          				</td>			</tr>
+          		</tbody>
+          	</table>
+          </div></div></div>
+
+          <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+          	<table class="wsite-multicol-table">
+          		<tbody class="wsite-multicol-tbody">
+          			<tr class="wsite-multicol-tr">
+          				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+
+
+
+          <div class="wsite-spacer" style="height:58px;"></div>
+
+          <div class="paragraph" style="text-align:center;"><strong><font color="#818181" size="4">Work in IIT Roorkee Campus - enjoy the laboratories, hangout places and other infrastructure of one of the best colleges in India.</font></strong></div>
+
+
+
+          				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+
+
+
+          <div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+          <a>
+          <img src="https://www.ednams.com/uploads/1/4/0/4/140469664/published/332513231.png?1646244893" alt="Picture" style="width:318;max-width:100%">
+          </a>
+          <div style="display:block;font-size:90%"></div>
+          </div></div>
+
+
+
+          				</td>			</tr>
+          		</tbody>
+          	</table>
+          </div></div></div>
+
+          <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+          	<table class="wsite-multicol-table">
+          		<tbody class="wsite-multicol-tbody">
+          			<tr class="wsite-multicol-tr">
+          				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+
+
+
+          <div class="wsite-spacer" style="height:127px;"></div>
+
+          <div class="paragraph" style="text-align:center;"><strong><font color="#e0915c" size="4">Don't worry about coming to a new city.<br>&ZeroWidthSpace;Accommodation is arranged by Ednam.&nbsp;</font></strong></div>
+
+
+
+          				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+
+
+
+          <div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+          <a>
+          <img src="https://www.ednams.com/uploads/1/4/0/4/140469664/published/137972473.jpg?1646245824" alt="Picture" style="width:auto;max-width:100%">
+          </a>
+          <div style="display:block;font-size:90%"></div>
+          </div></div>
+
+
+
+          				</td>			</tr>
+          		</tbody>
+          	</table>
+          </div></div></div>
+
+          <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+          	<table class="wsite-multicol-table">
+          		<tbody class="wsite-multicol-tbody">
+          			<tr class="wsite-multicol-tr">
+          				<td class="wsite-multicol-col" style="width:53.636363636364%; padding:0 15px;">
+
+
+
+          <div class="wsite-spacer" style="height:79px;"></div>
+
+          <div class="paragraph" style="text-align:center;"><strong><font size="4" color="#818181">Work with sincerity, enjoy in serenity! Travel coupons every month for exploring the mountains of Uttarakhand.</font></strong></div>
+
+
+
+          				</td>				<td class="wsite-multicol-col" style="width:46.363636363636%; padding:0 15px;">
+
+
+
+          <div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+          <a>
+          <img src="https://www.ednams.com/uploads/1/4/0/4/140469664/editor/312678590.png?1646245335" alt="Picture" style="width:322;max-width:100%">
+          </a>
+          <div style="display:block;font-size:90%"></div>
+          </div></div>
+
+
+
+          				</td>			</tr>
+          		</tbody>
+          	</table>
+          </div></div></div>
+          			</div>
+          		</div>
+          		</div>
+
+          	</div>
+          </div>
+  </div>
+</div>
+  </body>
+</html>
